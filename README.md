@@ -1,6 +1,6 @@
 # Warrior NFT Collection - Ethereum Goerli to Mumbai Testnet Migration
 
-In this project, we wil deploy an NFT collection on the Ethereum blockchain - goerli testnet, Map the collection to Polygon Mumbai network, and Transfer assets over via the Polygon Bridge using FXportal Bridging.
+In this project, we wil deploy an NFT collection on the Ethereum blockchain - goerli testnet, Map the collection to Polygon Mumbai network, and Transfer assets over via the Polygon Bridge using FXportal Bridge
 
 ## Contract Info 📑
 
