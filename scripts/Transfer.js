@@ -5,7 +5,7 @@ require('dotenv').config();
 
 async function main() {
   const networkAddress = 'https://goerli.infura.io/v3/4aeaaef098944254b59c2338dae8cb84';
-  const privateKey = '37e9b7ab5b9d40ab548d24a9fc371dd10667f2a57e7a5bea40f38926e34e7224';
+  const privateKey = ' Your private key ';
   const provider = new ethers.providers.JsonRpcProvider(networkAddress);
 
   const signer = new ethers.Wallet(privateKey, provider);
