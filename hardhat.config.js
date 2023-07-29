@@ -13,7 +13,7 @@ module.exports = {
     goerli: {
       url: "https://goerli.infura.io/v3/4aeaaef098944254b59c2338dae8cb84", // Replace with your Infura or Alchemy Goerli URL
       accounts: {
-        mnemonic: "initial jelly survey reduce clinic laugh twelve sad final puzzle used dumb", // Replace with your Goerli testnet wallet mnemonic
+        mnemonic: "    ", // Replace with your Goerli testnet wallet mnemonic
       },
     },
     mumbai: {
