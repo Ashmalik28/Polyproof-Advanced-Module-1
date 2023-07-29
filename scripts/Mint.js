@@ -5,7 +5,7 @@ async function main() {
   const warriorContractABI = require("../artifacts/contracts/Warrior.sol/Warrior.json").abi; // Replace with the ABI of the deployed contract
   const provider = ethers.getDefaultProvider("goerli"); // Replace with the desired network (e.g., "mainnet", "ropsten", "rinkeby", etc.)
 
-  const signer = new ethers.Wallet("37e9b7ab5b9d40ab548d24a9fc371dd10667f2a57e7a5bea40f38926e34e7224", provider); // Replace with your private key
+  const signer = new ethers.Wallet(" your wallet private key ", provider); // Replace with your private key
   const warriorContract = new ethers.Contract(warriorContractAddress, warriorContractABI, signer);
 
   const nftUrl = "https://gateway.pinata.cloud/ipfs/QmZ5ecTyWiftvYP5JqHuHhFLU2dU97uZ7FPG84w6JbKqNu/"; // Replace with the URL for your NFT metadata
